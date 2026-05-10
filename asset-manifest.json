@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/hyperbook/static/css/main.f855e6bc.css",
-    "main.js": "/hyperbook/static/js/main.94c2808a.js",
+    "main.js": "/hyperbook/static/js/main.82257176.js",
     "static/js/453.1f3db221.chunk.js": "/hyperbook/static/js/453.1f3db221.chunk.js",
     "index.html": "/hyperbook/index.html",
     "main.f855e6bc.css.map": "/hyperbook/static/css/main.f855e6bc.css.map",
-    "main.94c2808a.js.map": "/hyperbook/static/js/main.94c2808a.js.map",
+    "main.82257176.js.map": "/hyperbook/static/js/main.82257176.js.map",
     "453.1f3db221.chunk.js.map": "/hyperbook/static/js/453.1f3db221.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.94c2808a.js"
+    "static/js/main.82257176.js"
   ]
 }
