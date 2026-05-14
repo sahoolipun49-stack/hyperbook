@@ -42,15 +42,15 @@ export default function TextForm(props) {
   backgroundColor: props.mode === 'dark' ? 'black' : 'white',
   color: props.mode === 'dark' ? 'white' : 'black'
 }} id="myBox" rows="8"></textarea>
-<button className="btn btn-primary mx-1" onClick={handleUpClick}>Convert to Uppercase</button>
-<button className="btn btn-primary mx-1" onClick={handleLoClick}>Convert to Lowercase</button>
-<button className="btn btn-primary mx-1" onClick={handleClearClick}>Clear Text</button>
+<button className="btn btn-primary mx-1 my-1" onClick={handleUpClick}>Convert to Uppercase</button>
+<button className="btn btn-primary mx-1 my-1" onClick={handleLoClick}>Convert to Lowercase</button>
+<button className="btn btn-primary mx-1 my-1" onClick={handleClearClick}>Clear Text</button>
 </div>
     </div>
     <div className="container" style={{color:props.mode==='dark'?'white':'black'}}>
       <h2>Your text Summery </h2>
-      <p>{text.split(" ").length} Words, {text.length}Characters</p>
-      <p>{0.008 * text.split(" ").length} Minutes read</p>
+      <p>{text.split(" ").filter((element)=>{return element.length!==0}).length} Words, {text.length}Characters</p>
+      <p>{0.008 * text.split(" ").filter((element)=>{return element.length!==0}).length} Minutes read</p>
       <h2>Preview</h2>
       <p>{text}</p>
     </div>
