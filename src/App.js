@@ -53,7 +53,7 @@ function App() {
   <Route path="/about" element={<About  mode={mode}/>} />
   <Route path="/"   element={
     <> 
-  <TextForm  showAlert ={showAlert}heading ="Enter the text to analyze below" mode={mode} toggleMode={toggleMode}/>
+  <TextForm  showAlert ={showAlert}heading ="Hyperbook- Word Counter, Character Counter, Remove Extra Spaces" mode={mode} toggleMode={toggleMode}/>
   
   </>}  />
 </Routes>
